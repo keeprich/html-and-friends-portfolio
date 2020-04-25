@@ -361,3 +361,9 @@ textarea {
     .tm-service-img { margin-right: 0; }
     .tm-service-img-r { margin-left: 0; }
 }
+
+
+.typewrite {
+    color: aqua;
+    text-align: center;
+}
