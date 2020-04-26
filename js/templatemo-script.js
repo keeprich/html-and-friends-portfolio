@@ -1,5 +1,5 @@
 const initBg = (autoplay = true) => {
-    const bgImgsNames = ['backG1.jpg', 'backG2.jpg', 'backG3.jpg'];
+    const bgImgsNames = ['diagoona-bg-1.jpg', 'backG1.jpg', 'backG3.jpg'];
     const bgImgs = bgImgsNames.map(img => "img/" + img);
 
     $.backstretch(bgImgs, {duration: 3000, fade: 5000});
@@ -58,6 +58,8 @@ $(document).ready(function () {
 // All right recer
 
 
+// Type Writer
+
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -111,6 +113,6 @@ window.onload = function() {
     // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #ffffff02}";
     document.body.appendChild(css);
 };

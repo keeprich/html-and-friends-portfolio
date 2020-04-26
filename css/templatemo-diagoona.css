@@ -364,6 +364,17 @@ textarea {
 
 
 .typewrite {
-    color: aqua;
-    text-align: center;
+  color: rgb(252, 81, 1);
+  position: relative;
+  animation: myfirst 15s ease-in 8s infinite alternate;
+  text-align: center;
+  -webkit-animation: myfirst 15s ease-in 8s infinite alternate;
 }
+
+@keyframes myfirst {
+    0%   {color:red;}
+    25%  {color:yellow;}
+    50%  {color:blue;}
+    75%  {color:green;}
+    100% {color:red;}
+  }
