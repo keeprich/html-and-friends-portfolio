@@ -378,3 +378,12 @@ textarea {
     75%  {color:green;}
     100% {color:red;}
   }
+
+  .typeHead {
+      text-shadow: 2px 4px 1px red;
+      text-align: center;
+      color: rgba(65, 105, 225, 0.527);
+      font-size: larger;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 900;
+  }
